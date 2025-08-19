@@ -1,6 +1,4 @@
-n1=int(input("enter the number:"))
-n2=int(input("enter the number:"))
-if (n1>n2):
-    print("true")
-else:
-    print("false")
+sum=0
+for i in range(1,51):
+    sum+=i
+print(f"The sume of number from 1 to 50 is: {sum}")
